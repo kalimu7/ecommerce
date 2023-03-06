@@ -1,0 +1,152 @@
+<wpml-config>
+  <custom-fields>
+    <custom-field action="translate">page_subtitle</custom-field>
+  </custom-fields>
+  <admin-texts>
+    <key name="phlox_theme_options">
+      <key name="auxin_login_message"/>
+      <key name="auxin_login_logo_image"/>
+      <key name="auxin_login_logo_width"/>
+      <key name="auxin_login_logo_height"/>
+    </key>
+  </admin-texts>
+
+  <elementor-widgets>
+      <widget name="aux_modern_heading">
+          <conditions>
+              <condition key="widgetType">aux_modern_heading</condition>
+          </conditions>
+          <fields>
+              <field type="Modern Heading: Title" editor_type="LINE">title</field>
+              <field type="Modern Heading: Description" editor_type="VISUAL">description</field>
+              <field type="Modern Heading: Before Text" editor_type="LINE">title_secondary_before</field>
+              <field type="Modern Heading: Highlighted Text" editor_type="LINE">title_secondary_highlight</field>
+              <field type="Modern Heading: After Text" editor_type="LINE">title_secondary_after</field>
+          </fields>
+      </widget>
+    
+      <widget name="aux_button">
+          <conditions>
+              <condition key="widgetType">aux_button</condition>
+          </conditions>
+          <fields>
+              <field type="Button: Label" editor_type="LINE">label</field>
+          </fields>
+      </widget>
+    
+      <widget name="aux_contact_form">
+          <conditions>
+              <condition key="widgetType">aux_contact_form</condition>
+          </conditions>
+          <fields>
+              <field type="Contact Form 7: Shortcode" editor_type="LINE">label</field>
+          </fields>
+      </widget>
+    
+      <widget name="aux_blockquote">
+          <conditions>
+              <condition key="widgetType">aux_blockquote</condition>
+          </conditions>
+          <fields>
+              <field type="Blockquote: Content" editor_type="VISUAL">label</field>
+          </fields>
+      </widget>
+    
+      <widget name="aux_staff">
+          <conditions>
+              <condition key="widgetType">aux_staff</condition>
+          </conditions>
+          <fields>
+              <field type="Staff: Name" editor_type="LINE">title</field>
+              <field type="Staff: Occupation" editor_type="LINE">subtitle</field>
+              <field type="Staff: Content" editor_type="VISUAL">content</field>
+          </fields>
+      </widget>
+    
+      <widget name="aux_testimonial">
+          <conditions>
+              <condition key="widgetType">aux_testimonial</condition>
+          </conditions>
+          <fields>
+              <field type="Testimonial: Name" editor_type="LINE">title</field>
+              <field type="Testimonial: Occupation" editor_type="LINE">subtitle</field>
+              <field type="Testimonial: Content" editor_type="VISUAL">content</field>
+          </fields>
+      </widget>
+    
+      <widget name="aux_text">
+          <conditions>
+              <condition key="widgetType">aux_text</condition>
+          </conditions>
+          <fields>
+              <field type="Info Box: Name" editor_type="LINE">title</field>
+              <field type="Info Box: Occupation" editor_type="LINE">subtitle</field>
+              <field type="Info Box: Content" editor_type="VISUAL">content</field>
+              <field type="Info Box: Button label" editor_type="LINE">btn_label</field>
+          </fields>
+      </widget>
+    
+      <widget name="aux_gmap">
+          <conditions>
+              <condition key="widgetType">aux_gmap</condition>
+          </conditions>
+          <fields>
+              <field type="MAP: Latitude" editor_type="LINE">latitude</field>
+              <field type="MAP: Longitude" editor_type="LINE">longitude</field>
+              <field type="MAP: Marker info" editor_type="LINE">marker_info</field>
+          </fields>
+      </widget>
+    
+      <widget name="aux_modern_button">
+          <conditions>
+              <condition key="widgetType">aux_modern_button</condition>
+          </conditions>
+          <fields>
+              <field type="Button: Text" editor_type="LINE">label</field>
+              <field type="Button: Highlighted Text" editor_type="LINE">label2</field>
+              <field type="Button: After Text" editor_type="LINE">label3</field>
+              <field type="Button: Link" editor_type="LINK">link</field>
+          </fields>
+      </widget>
+    
+      <widget name="aux_copyright">
+          <conditions>
+              <condition key="widgetType">aux_copyright</condition>
+          </conditions>
+          <fields>
+              <field type="Button: Text" editor_type="LINE">copyright_text</field>
+          </fields>
+      </widget>
+
+      <widget name="aux_icon_list">
+          <conditions>
+              <condition key="widgetType">aux_icon_list</condition>
+          </conditions>
+          <fields-in-item items_of="list">
+              <field type="Flexible List: Text" editor_type="LINE">text_primary</field>
+              <field type="Flexible List: Secondary Text" editor_type="LINE">text_secondary</field>
+              <field type="Flexible List: Link" editor_type="LINK">link</field>
+          </fields-in-item>
+      </widget>
+
+      <widget name="aux_accordion">
+          <conditions>
+              <condition key="widgetType">aux_accordion</condition>
+          </conditions>
+          <fields-in-item items_of="tab_items">
+              <field type="Accordion: Label" editor_type="LINE">accordion_label</field>
+              <field type="Accordion: Content" editor_type="VISUAL">content</field>
+          </fields-in-item>
+      </widget>
+
+      <widget name="aux_tabs">
+          <conditions>
+              <condition key="widgetType">aux_tabs</condition>
+          </conditions>
+          <fields-in-item items_of="tab_items">
+              <field type="Tab: Label" editor_type="LINE">tab_label</field>
+              <field type="Tab: Content" editor_type="VISUAL">content</field>
+          </fields-in-item>
+      </widget>
+  </elementor-widgets>
+</wpml-config>
